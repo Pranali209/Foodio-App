@@ -1,0 +1,56 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/OpenSansRomanRegular.ttf");
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/PoppinsSemiBold.ttf");
+  font-family: "Poppins";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/OpenSansRomanBold.ttf");
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/PoppinsRegular.ttf");
+  font-family: "Poppins";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/InterSemiBold.ttf");
+  font-family: "Inter";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/TinosBold.ttf");
+  font-family: "Tinos";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/PoppinsLightItalic.ttf");
+  font-family: "Poppins";
+  font-weight: 300;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/PoppinsMedium.ttf");
+  font-family: "Poppins";
+  font-weight: 500;
+}

@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes imgRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate-slow-linear {
+  animation: imgRotate 50s linear infinite;
+
+}
+
+.animation-on-button {
+  animation: ease-in 300s linear;
+}
+
+.animate-custom-bounce {
+  animation: custom-bounce 2s infinite;
+}
+
+@keyframes custom-bounce {
+
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-fall {
+  animation: fall 5s ease-in-out infinite;
+}
+
+@keyframes ride {
+  0% {
+    transform: translateX(60%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.ride {
+  animation: ride 10s ease-in-out infinite
+}
+
+.parachute {
+  animation: parachuteUp 10s ease-in-out infinite;
+}
+
+@keyframes parachuteUp {
+  0% {
+    transform: translateY(50%) rotate(30deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-200%) rotate(0deg);
+    opacity: 0;
+  }
+
+}
+
+.Smallparachute {
+  animation: parachutesmall 10s ease-in-out infinite;
+}
+
+@keyframes parachutesmall {
+  0% {
+    transform: translateY(50%) rotate(20deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0%) rotate(0deg);
+    opacity: 0;
+  }
+
+}
+
+.Bigparachute {
+  animation: parachutesbig 5s ease-in-out infinite;
+}
+
+@keyframes parachutesbig {
+  0% {
+    transform: translateY(80%) rotate(15deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-50%) rotate(0deg);
+    opacity: 0;
+  }
+
+}
+
+.animate_spin_simple {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: rotate(60deg);
+    opacity: 1;
+  }
+}
+
+.animate_spin_simple2 {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(60deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.squeeze-animate {
+  animation: squeeze 5s ease-in-out infinite
+}
+
+@keyframes squeeze {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.7);
+  }
+}
