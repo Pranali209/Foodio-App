@@ -105,7 +105,7 @@ export default function HomepagePage() {
                   <Img
                     src="images/img_kindpng_3443995.png"
                     alt="kindpng3443995"
-                    className="relative ml-[-160px] h-[579px] w-[100%] object-cover sm:ml-0 sm:w-full h-fit "
+                    className="relative ml-[-160px] h-[579px] w-[100%] object-cover sm:ml-0 sm:w-full  sm:h-fit "
                   />
                 </div>
                 <Img
